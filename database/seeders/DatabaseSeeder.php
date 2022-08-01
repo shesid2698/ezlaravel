@@ -43,6 +43,7 @@ class DatabaseSeeder extends Seeder
             AnimalSeeder::class,
             AdoptionSeeder::class,
             AdoptedSeeder::class,
+
         ]);
         //enable foreign key check for this connection before running seeders
         $this->setFKCheckOn();
