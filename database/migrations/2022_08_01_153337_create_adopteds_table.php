@@ -20,6 +20,7 @@ class CreateAdoptedsTable extends Migration
             $table->string('adname', 50);
             $table->integer('admoney');
             $table->string('remark', 255);
+
         });
     }
 
